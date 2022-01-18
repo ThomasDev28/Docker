@@ -1,0 +1,16 @@
+# docker-compose.yml
+
+services:
+
+    server:
+
+        image: express-docker
+
+        ports: 
+
+            - 5051:5000
+
+    mongodb:
+
+        image: mongo
+
